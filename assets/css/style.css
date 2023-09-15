@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+td{
+    padding: 5px;
+}
+
+
+.box_todoList{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    border: 1px black solid;
+    
+}
+
+#caja_agregar_tarea{
+    display: flex;
+    gap: 35px;
+}
+
+#boton_agregar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo{
+    border-bottom: 1px #9e9ea8 solid;
+    padding: 20px;
+}
+
+.area_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja_contador{
+    display: flex;
+    gap: 25px;
+    border-bottom: 1px gray solid;
+    width: 100%;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
